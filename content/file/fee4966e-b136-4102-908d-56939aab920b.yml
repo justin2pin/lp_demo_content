@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: fee4966e-b136-4102-908d-56939aab920b
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: weta--screen03.png
+  uri:
+    -
+      value: 'public://2022-04/weta--screen03_0.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 639572
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1650484188

@@ -1,0 +1,16 @@
+{
+  "name": "justin2pin/lp_default_content",
+  "type": "drupal-module",
+  "description": "Layout Paragraphs Default Content",
+  "keywords": ["Drupal"],
+  "homepage": "https://github.com/justin2pin/lp_demo_content",
+  "support": {
+    "issues": "https://github.com/justin2pin/lp_demo_content/issues",
+    "source": "https://github.com/justin2pin/lp_demo_content.git"
+  },
+  "license": "GPL-2.0+",
+  "minimum-stability": "dev",
+  "require": {
+    "drupal/default_content": "^2.0@alpha"
+  }
+}

@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 94bd7f1a-b95b-4815-bab4-2662adb5b34e
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: weta-og.png
+  uri:
+    -
+      value: 'public://2022-04/weta-og_0.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 653394
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1650484188

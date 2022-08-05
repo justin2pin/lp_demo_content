@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 8aee4b47-6f00-4e9c-b03d-774f8dfc8cc4
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: weta-content-authoring.png
+  uri:
+    -
+      value: 'public://2022-04/weta-content-authoring_0.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 1003656
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1650484188

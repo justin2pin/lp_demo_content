@@ -1,0 +1,537 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 43401fee-6fae-4984-bcc8-2c96ac7d0312
+  bundle: page
+  default_langcode: en
+  depends:
+    701f653a-2815-4203-b25b-c7b55a15acb9: media
+    8769a5c6-015a-475d-b03f-69cdd1d376f2: media
+    49730b54-a221-4002-9692-8cb877737c28: media
+    c5370657-64fd-467a-81eb-b03de3a417e6: media
+    a53cad40-0460-45c4-bcf4-76ba353272be: media
+    71b53f2d-f1d2-48d5-b4c2-d5d9203d14ba: node
+    b3fcd599-5473-40b6-84e6-aa6d0c843b1b: node
+    1b48e4ce-0819-41ac-9694-ffba7100edf6: node
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'WETA.org Redesign'
+  created:
+    -
+      value: 1650484227
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+  field_content:
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 637737b3-25ad-45d2-989b-f3d95f1727fe
+          bundle: section
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1650925482
+          behavior_settings:
+            -
+              value:
+                layout_paragraphs:
+                  layout: layout_threecol_33_34_33
+                  config:
+                    label: ''
+                  parent_uuid: null
+                  region: null
+          revision_translation_affected:
+            -
+              value: true
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: c8666fa0-dfbb-414e-8f5a-2f19eb3a92c2
+          bundle: section
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1650925500
+          behavior_settings:
+            -
+              value:
+                layout_paragraphs:
+                  layout: layout_twocol
+                  config:
+                    label: ''
+                  parent_uuid: 637737b3-25ad-45d2-989b-f3d95f1727fe
+                  region: top
+          revision_translation_affected:
+            -
+              value: true
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 00852531-9c48-4f97-9c70-00dc20a35f95
+          bundle: stories_text
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1650484261
+          behavior_settings:
+            -
+              value:
+                layout_paragraphs:
+                  parent_uuid: c8666fa0-dfbb-414e-8f5a-2f19eb3a92c2
+                  region: first
+          revision_translation_affected:
+            -
+              value: true
+          field_stories_text_formatted:
+            -
+              value: "<h2>The premier public broadcaster in the nation’s capital.</h2>\r\n\r\n<p>WETA is a top producing station for public television that engages its local community and the nation at large with best-in-class educational, cultural, news and public affairs programming. The creation of compelling, enlightening programs of quality and integrity has won WETA more than 500 awards.</p>\r\n\r\n<p>WETA embraced digital transformation through a radical shift away from a&nbsp;<em>tune-in</em>&nbsp;mindset in favor of&nbsp;<em>watch and listen online</em>. Their ample on-demand programming — automatically consolidated from PBS and other sources — puts unrivaled fully searchable and filterable cultural content at the fingertips of discerning viewers throughout the D.C. area, Maryland, and Virginia. Thoughtfully produced classical music lineups, shows, and podcasts are broadcast direct to audiences via one-click in-browser streaming.</p>\r\n\r\n<p>A powerful content authoring experience empowers the WETA team to easily build out dynamic content pages and navigation, leverage component based styles for customizable lists of audio and video media, and flexibly promote content and groups of content across their website. WETA’s modern, digital-first approach to public broadcasting centers around high-value user interactions with on-demand radio &amp; TV content, program scheduling, and ways to support all front-and-center.</p>\r\n"
+              format: basic_html
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: edafebc1-af56-4f68-b347-6c466816c14b
+          bundle: section
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1650925508
+          behavior_settings:
+            -
+              value:
+                layout_paragraphs:
+                  layout: layout_onecol
+                  config:
+                    label: ''
+                  parent_uuid: c8666fa0-dfbb-414e-8f5a-2f19eb3a92c2
+                  region: second
+          revision_translation_affected:
+            -
+              value: true
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 8bcd80c0-345e-4df2-b26f-245ff35ac26e
+          bundle: stories_image
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1650484239
+          behavior_settings:
+            -
+              value:
+                layout_paragraphs:
+                  parent_uuid: edafebc1-af56-4f68-b347-6c466816c14b
+                  region: content
+          revision_translation_affected:
+            -
+              value: true
+          field_stories_alignment:
+            -
+              value: center
+          field_stories_image:
+            -
+              entity: 701f653a-2815-4203-b25b-c7b55a15acb9
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 4c827db4-8d8b-44bb-8f75-00ba270d20fa
+          bundle: stories_text
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1650484278
+          behavior_settings:
+            -
+              value:
+                layout_paragraphs:
+                  parent_uuid: null
+                  region: null
+          revision_translation_affected:
+            -
+              value: true
+          field_stories_text_formatted:
+            -
+              value: "<h2>Key Challenges</h2>\r\n\r\n<ul>\r\n\t<li>WETA needed to more effectively connect with viewers, listeners, donors and funders through a keen understanding of what each audience needs from a digital-first public broadcaster.</li>\r\n\t<li>Nearly a thousand on-demand and scheduled TV shows across diverse public interests from history to art through music, drama and cuisine needed to be imported, organized, and intuitively presented to users. Both browseable and findable were a must.</li>\r\n\t<li>Content authoring had to be simple and powerful, enabling editorial teams to produce beautiful, compelling content unbound by traditional page regions or rigid design limitations.</li>\r\n</ul>\r\n"
+              format: basic_html
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 21350b09-5c2f-4bac-a0c2-7b34d28c8411
+          bundle: stories_text
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1650484287
+          behavior_settings:
+            -
+              value:
+                layout_paragraphs:
+                  parent_uuid: null
+                  region: null
+          revision_translation_affected:
+            -
+              value: true
+          field_stories_text_formatted:
+            -
+              value: "<h2>Key Solutions</h2>\r\n\r\n<ul>\r\n\t<li>A modern, bold design puts WETA’s core offerings at the heart of the user experience. Content steals the stage with shows, news and classical music looming large on the homepage, and crystal-clear persistent navigation speaking directly to primary audience needs.</li>\r\n\t<li>With Drupal under the hood syndicating, organizing, and presenting content from PBS and other providers is a snap. Searchable, filterable lists of automatically imported on-demand content and calendar views of scheduled programming unclutter the user experience and let content shine.</li>\r\n\t<li>WETA’s new publishing toolkit — built on Drupal’s core content authoring suite — puts editorial staff squarely in the driver’s seat. Editors can produce rich multimedia content unbound by fixed layouts, publish text-heavy content with automated in-page section links, and rearrange callouts, tabbed interfaces, and filterable content lists.</li>\r\n</ul>\r\n"
+              format: basic_html
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 7a657af5-1152-492a-8091-8a43396b2487
+          bundle: stories_slideshow
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1650484297
+          behavior_settings:
+            -
+              value:
+                layout_paragraphs:
+                  parent_uuid: null
+                  region: null
+          revision_translation_affected:
+            -
+              value: true
+          field_stories_alignment:
+            -
+              value: center
+          field_stories_slideshow:
+            -
+              entity: 8769a5c6-015a-475d-b03f-69cdd1d376f2
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 020374e3-8646-44b3-9cb6-0704a7657976
+          bundle: stories_image
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1650484343
+          behavior_settings:
+            -
+              value:
+                layout_paragraphs:
+                  parent_uuid: null
+                  region: null
+          revision_translation_affected:
+            -
+              value: true
+          field_stories_alignment:
+            -
+              value: center
+          field_stories_image:
+            -
+              entity: 49730b54-a221-4002-9692-8cb877737c28
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 14f2a80f-5e5f-4cc0-ad06-de2990c5c253
+          bundle: stories_text
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1650484365
+          behavior_settings:
+            -
+              value:
+                layout_paragraphs:
+                  parent_uuid: null
+                  region: null
+          revision_translation_affected:
+            -
+              value: true
+          field_stories_text_formatted:
+            -
+              value: "<h2>Search, browse, listen, watch</h2>\r\n\r\n<p>Content first is an understatement. When you visit the new WETA.org you’re browsing on-demand content before you can blink. From a homepage studded with public television’s top picks, to straightforward navigation that dives directly into hundreds of on-demand shows, to the persistent Listen button that launches multiple channels of streaming, top-rate, classical content — every interaction invites users to watch and listen online.</p>\r\n"
+              format: basic_html
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 92323c88-b10b-413d-82c4-d33dd59b0538
+          bundle: stories_image
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1650484393
+          behavior_settings:
+            -
+              value:
+                layout_paragraphs:
+                  parent_uuid: null
+                  region: null
+          revision_translation_affected:
+            -
+              value: true
+          field_stories_alignment:
+            -
+              value: center
+          field_stories_image:
+            -
+              entity: c5370657-64fd-467a-81eb-b03de3a417e6
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 146e3bde-d53b-476e-8bba-34ad5eadcd32
+          bundle: stories_text
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1650484374
+          behavior_settings:
+            -
+              value:
+                layout_paragraphs:
+                  parent_uuid: null
+                  region: null
+          revision_translation_affected:
+            -
+              value: true
+          field_stories_text_formatted:
+            -
+              value: "<h2>Content authoring, turned up</h2>\r\n\r\n<p>Leveraging, extending, and customizing a suite of editing and layout focused core Drupal features provides a first-rate authoring experience optimized for flexibility and usability. Editors can create rich-media content with ease, build mini-site sections with dedicated navigation, configure and customize TV carousels, and flexibly publish in tabbed or grid layouts.</p>\r\n"
+              format: basic_html
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: ca4f81b1-9741-409b-85ff-14dd1cee2bf6
+          bundle: stories_image
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1650484411
+          behavior_settings:
+            -
+              value:
+                layout_paragraphs:
+                  parent_uuid: null
+                  region: null
+          revision_translation_affected:
+            -
+              value: true
+          field_stories_alignment:
+            -
+              value: center
+          field_stories_image:
+            -
+              entity: a53cad40-0460-45c4-bcf4-76ba353272be
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: b9d19e7f-e2a6-4cef-a26c-fcd2fb9fbd84
+          bundle: stories_text
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1650484428
+          behavior_settings:
+            -
+              value:
+                layout_paragraphs:
+                  parent_uuid: null
+                  region: null
+          revision_translation_affected:
+            -
+              value: true
+          field_stories_text_formatted:
+            -
+              value: "<h2>Listen now: On-demand radio</h2>\r\n\r\n<p>An easy-to-use, modern, browser-based audio player built in HTML5 / JavaScript delivers on-demand radio and podcasts across all modern devices with a single click. The player can seamlessly switch between multiple audio streams and displays detailed metadata like names of artists and musical pieces.</p>\r\n"
+              format: basic_html
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 03e1c17b-5368-49ab-a8df-e5c039274dac
+          bundle: stories_text
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1650563272
+          behavior_settings:
+            -
+              value:
+                layout_paragraphs:
+                  parent_uuid: null
+                  region: null
+          revision_translation_affected:
+            -
+              value: true
+          field_stories_text_formatted:
+            -
+              value: "<p>This is some new text.</p>\r\n"
+              format: basic_html
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: c6d6e06d-f611-458d-a416-888d954ed1b5
+          bundle: stories_curated_content
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1650485301
+          behavior_settings:
+            -
+              value:
+                layout_paragraphs:
+                  parent_uuid: null
+                  region: null
+          revision_translation_affected:
+            -
+              value: true
+          field_stories_curated_content:
+            -
+              entity: 71b53f2d-f1d2-48d5-b4c2-d5d9203d14ba
+            -
+              entity: b3fcd599-5473-40b6-84e6-aa6d0c843b1b
+            -
+              entity: 1b48e4ce-0819-41ac-9694-ffba7100edf6
+          field_stories_heading:
+            -
+              value: 'Related Reading'
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 83838dc2-e693-4187-8e69-5603ff896a88
+          bundle: stories_quote
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1650563205
+          behavior_settings:
+            -
+              value:
+                layout_paragraphs:
+                  parent_uuid: null
+                  region: null
+          revision_translation_affected:
+            -
+              value: true
+          field_stories_quote_citation:
+            -
+              value: 'Jane Smith, Web Manager'
+          field_stories_quote_text:
+            -
+              value: "<p>Layout Paragraphs makes this very easy to use.</p>\r\n"
+              format: basic_html

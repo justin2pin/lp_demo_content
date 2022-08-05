@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 71e13fef-89e4-42d0-a29d-c78ac34ee2a4
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: weta--screen02.png
+  uri:
+    -
+      value: 'public://2022-04/weta--screen02_0.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 495614
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1650484188

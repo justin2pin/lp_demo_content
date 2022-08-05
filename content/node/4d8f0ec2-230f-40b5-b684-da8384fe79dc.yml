@@ -1,0 +1,64 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 4d8f0ec2-230f-40b5-b684-da8384fe79dc
+  bundle: article
+  default_langcode: en
+  depends:
+    7d9b2c17-52ff-4633-a4b2-184f14f25bc6: file
+    9294694c-2e01-4641-bfae-a5c17779f485: taxonomy_term
+    ed8058a9-f8c6-4026-97cc-8aa11cb1c66a: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'WETA.org Redesign'
+  created:
+    -
+      value: 1650483664
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+  body:
+    -
+      value: "<h2>The premier public broadcaster in the nation’s capital.</h2>\r\n\r\n<p>WETA is a top producing station for public television that engages its local community and the nation at large with best-in-class educational, cultural, news and public affairs programming. The creation of compelling, enlightening programs of quality and integrity has won WETA more than 500 awards.</p>\r\n\r\n<p>WETA embraced digital transformation through a radical shift away from a&nbsp;<em>tune-in</em>&nbsp;mindset in favor of&nbsp;<em>watch and listen online</em>. Their ample on-demand programming — automatically consolidated from PBS and other sources — puts unrivaled fully searchable and filterable cultural content at the fingertips of discerning viewers throughout the D.C. area, Maryland, and Virginia. Thoughtfully produced classical music lineups, shows, and podcasts are broadcast direct to audiences via one-click in-browser streaming.</p>\r\n\r\n<p>A powerful content authoring experience empowers the WETA team to easily build out dynamic content pages and navigation, leverage component based styles for customizable lists of audio and video media, and flexibly promote content and groups of content across their website. WETA’s modern, digital-first approach to public broadcasting centers around high-value user interactions with on-demand radio &amp; TV content, program scheduling, and ways to support all front-and-center.</p>\r\n"
+      format: basic_html
+      summary: ''
+  comment:
+    -
+      status: 2
+      cid: 0
+      last_comment_timestamp: 1650483693
+      last_comment_name: ''
+      last_comment_uid: 1
+      comment_count: 0
+  field_image:
+    -
+      entity: 7d9b2c17-52ff-4633-a4b2-184f14f25bc6
+      alt: 'WETA.org Home Page'
+      title: ''
+      width: 1020
+      height: 780
+  field_tags:
+    -
+      entity: 9294694c-2e01-4641-bfae-a5c17779f485
+    -
+      entity: ed8058a9-f8c6-4026-97cc-8aa11cb1c66a
