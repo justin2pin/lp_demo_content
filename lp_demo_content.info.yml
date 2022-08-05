@@ -3,4 +3,4 @@ description: Provides default content for LP demos
 type: module
 core_version_requirement: ^8.8 || ^9 || ^10
 dependencies:
-  default_content:default_content
+  - default_content:default_content
