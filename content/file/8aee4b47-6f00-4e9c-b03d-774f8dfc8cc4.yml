@@ -12,7 +12,7 @@ default:
       value: weta-content-authoring.png
   uri:
     -
-      value: 'public://2022-04/weta-content-authoring_0.png'
+      value: 'public://2022-04/weta-content-authoring_0_1.png'
   filemime:
     -
       value: image/png

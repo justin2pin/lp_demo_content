@@ -12,7 +12,7 @@ default:
       value: weta-og.png
   uri:
     -
-      value: 'public://2022-04/weta-og_0.png'
+      value: 'public://2022-04/weta-og_0_1.png'
   filemime:
     -
       value: image/png
