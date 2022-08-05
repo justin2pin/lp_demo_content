@@ -4,3 +4,5 @@ type: module
 core_version_requirement: ^8.8 || ^9 || ^10
 dependencies:
   - default_content:default_content
+  - stories:stories
+  - stories:stories_media
